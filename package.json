@@ -1,27 +1,27 @@
 {
-  "name": "kord",
+  "name": "jarvis",
   "version": "2.0.0",
   "description": "whatsapp bot made with baileys",
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
-    "start": "FORCE_COLOR=1 npx pm2 start . --attach --name kord-v2 -- --color",
+    "start": "FORCE_COLOR=1 npx pm2 start . --attach --name jarvis-v2 -- --color",
     "build": "echo 'Not needed'",
     "stop": "npx pm2 stop kord-ai"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/M3264/Kord-Ai.git"
+    "url": "https://github.com/BigBlackMONTY01/Jarviss"
   },
   "keywords": [
     "whatsapp-bot"
   ],
-  "author": "M3264",
+  "author": "Monty",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/M3264/Kord-Ai/issues"
+    "url": "https://github.com/BigBlackMONTY01/Jarviss"
   },
-  "homepage": "https://github.com/M3264/Kord-Ai#readme",
+  "homepage": "https://github.com/BigBlackMONTY01/Jarviss",
   "dependencies": {
     "axios": "^0.27.2",
     "baileys": "7.0.0-rc.9",
